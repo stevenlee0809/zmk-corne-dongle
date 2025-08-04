@@ -14,13 +14,13 @@ manifest:
       revision: main 
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: c25e927a2fae915e208a8777ce211a10c658e771
       import: app/west.yml
     - name: prospector-zmk-module                 # <--- and these
       remote: tokyo2006                          # <---
       revision: change_spi2
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: main
+      revision: 34c8852e6dc4116f8996b0fdb2b03b9d62cdfa03
   self:
     path: config
