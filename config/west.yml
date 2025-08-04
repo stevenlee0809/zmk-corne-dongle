@@ -20,7 +20,7 @@ manifest:
       remote: tokyo2006                          # <---
       revision: change_spi2
     - name: zmk-dongle-display
-      remote: stevenlee0809
+      remote: englmaxi
       revision: main
   self:
     path: config
