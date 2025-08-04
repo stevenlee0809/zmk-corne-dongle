@@ -133,7 +133,7 @@
             bindings = <
 &kp LG(SPACE)  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN                        &none         &none  &none      &none      &none     &none     &none
 &kp LA(LC(P))  &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK            &none  &none  &none  &none  &kp RCTRL  &kp RSHFT  &kp RALT  &kp RGUI  &none
-&kp LA(LC(N))  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK  &none           &none         &none  &none      &none      &none     &none     &kp RGUI
+&kp LA(LC(N))  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK  &none           &none         &none  &none      &none      &none     &none     &none
                                 &none   &none   &none                                          &none  &none      &none
             >;
 
