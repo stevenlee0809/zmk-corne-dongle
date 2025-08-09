@@ -21,4 +21,8 @@
 
 &spi3 {
     status = "disabled";
-}
+};
+
+&pwm0 {
+    status = "disabled";
+};
