@@ -18,3 +18,7 @@
         events = <0>;
     };
 };
+
+&spi3 {
+    status = "disabled";
+}
