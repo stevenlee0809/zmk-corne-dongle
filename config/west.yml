@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: gpeye
       url-base: https://github.com/GPeye
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
   projects:
     - name: hammerbeam-slideshow
       remote: gpeye
@@ -12,5 +14,8 @@ manifest:
       remote: zmkfirmware
       revision: c25e927a2fae915e208a8777ce211a10c658e771
       import: app/west.yml
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: main
   self:
     path: config
