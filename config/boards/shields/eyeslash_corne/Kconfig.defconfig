@@ -1,7 +1,7 @@
 if SHIELD_EYESLASH_CORNE_CENTRAL_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Corne_Dongle"
+    default "Asgard"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
