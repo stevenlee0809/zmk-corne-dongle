@@ -7,7 +7,8 @@ include:
 #     artifact-name: eyeslash_corne_central_dongle
   - board: seeeduino_xiao_ble
     shield: eyeslash_corne_central_dongle rgbled_adapter
-    snippet: zmk-usb-logging studio-rpc-usb-uart
+    #snippet: zmk-usb-logging studio-rpc-usb-uart
+    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
     artifact-name: xiao_dongle
   - board: nice_nano_v2
