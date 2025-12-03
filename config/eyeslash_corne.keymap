@@ -274,6 +274,22 @@
 
             label = "TMUX_SPLIT_S";
         };
+
+        tmux_kill_pane: tmux_kill_pane {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LC(A)>,
+                <&macro_release>,
+                <&kp LC(A)>,
+                <&macro_tap>,
+                <&kp X>,
+                <&macro_tap>,
+                <&kp Y>;
+
+            label = "TMUX_KILL_PANE";
+        };
     };
 
     keymap {
@@ -351,7 +367,7 @@
 
         tmux {
             bindings = <
-&none  &tmux_sel_w0  &tmux_sel_w1  &tmux_sel_w2         &tmux_sel_w3         &tmux_sel_w4                       &none         &none  &none          &none          &none  &none  &none
+&none  &tmux_sel_w0  &tmux_sel_w1  &tmux_sel_w2         &tmux_sel_w3         &tmux_sel_w4                       &none         &none  &none          &none          &none  &none  &tmux_kill_pane
 &none  &none         &none         &tmux_switch_window  &tmux_switch_client  &none                       &none  &none  &none  &none  &tmux_split_v  &tmux_split_s  &none  &none  &none
 &none  &tmux_zoom    &none         &tmux_paste          &tmux_copy           &none              &none           &none         &none  &none          &none          &none  &none  &none
                                    &none                &tmux_prev_client    &tmux_next_client                                &none  &none          &none
