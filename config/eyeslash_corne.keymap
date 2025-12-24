@@ -292,6 +292,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        quick-shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <46 43>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
