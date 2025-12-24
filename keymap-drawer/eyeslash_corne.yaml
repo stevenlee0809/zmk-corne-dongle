@@ -343,3 +343,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+combos:
+- p: [46, 43]
+  k: $$mdi:apple-keyboard-shift$$
