@@ -2,16 +2,16 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: m165437 #new entry
-      url-base: https://github.com/M165437 #new entry
+    - name: stevenlee0809 #new entry
+      url-base: https://github.com/stevenlee0809 #new entry
     - name: tokyo2006
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
   projects:
     - name: nice-view-gem #new entry
-      remote: m165437 #new entry
-      revision: v0.3.0 #new entry
+      remote: stevenlee0809 #new entry
+      revision: mytest #new entry
     - name: zmk
       remote: zmkfirmware
       revision: c25e927a2fae915e208a8777ce211a10c658e771
